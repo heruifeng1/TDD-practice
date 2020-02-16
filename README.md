@@ -4,11 +4,11 @@
 
 准备步骤：
 
-* `git clone https://github.com/jimmylv/dojo-scaffold-js.git`
-* `cd dojo-scaffold-js`
+* `git clone https://github.com/jimmylv/tdd-fizzbuzz.git`
+* `cd tdd-fizzbuzz`
 * `yarn install`
 
-用 Intellij IDEA 或 WebStorm 或者你习惯的任何 IDE（但是我强烈建议不要使用 IDEA 或 WebStorm 之外的其他 IDE）导入工程，运行全部测试，你应该看到绿条。
+用 WebStorm 或者你习惯的任何 IDE（但是我强烈建议不要使用 WebStorm 之外的其他 IDE）导入工程，运行全部测试，你应该看到绿条。
 
 ```bash
 $ yarn start #查看题目
