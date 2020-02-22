@@ -1,17 +1,14 @@
 {
-  "name": "tdd-fizz-buzz",
+  "name": "tdd-fizzbuzz",
   "version": "0.1.0",
   "license": "Apache License 2.0",
   "private": true,
-  "homepage": "https://jimmylv.github.io/tdd-fizz-buzz",
+  "homepage": "https://jimmylv.github.io/tdd-fizzbuzz",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test ./src/dojo/fizzBuzz.test.js",
     "test:ci": "cross-env CI=true yarn test --coverage",
-    "test:fizzbuzz": "react-scripts test ./src/dojo/fizzBuzz.test.js",
-    "test:marsrover": "react-scripts test ./src/dojo/marsrover.test.js",
-    "test:dojo": "jest -c src/config/jest.config.js --rootDir ./ --testRegex",
     "lint:fix": "eslint src --fix",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
